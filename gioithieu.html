@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Giới thiệu - Thế giới máy ảnh</title>
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <!-- Load font awesome icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      crossorigin="anonymous"
+    />
+
+    <!-- our files -->
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/topnav.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/taikhoan.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/gioithieu.css" />
+
+    <!-- js -->
+    <script src="data/products.js"></script>
+    <script src="js/dungchung.js"></script>
+    <script>
+      window.onload = function () {
+        khoiTao();
+        // thêm tags (từ khóa) vào khung tìm kiếm
+        var tags = ["Sony", "Canon", "Panasonic", "Nikon", "Samsung"];
+        for (var t of tags) addTags(t, "index.html?search=" + t);
+      };
+    </script>
+  </head>
+
+  <body>
+    <script>
+      addTopNav();
+    </script>
+
+    <section style="min-height: 85vh">
+      <script>
+        addHeader();
+      </script>
+
+      <div class="page-gt">
+        <h4 class="page-header">Giới thiệu</h4>
+        <div class="page-info">
+          <p>
+            Chúng tôi là nhà phân phối máy ảnh SamSung – Masterdealer duy nhất
+            tại 194 đường Lê Duẩn, Hà Nội. <br />Chúng tôi bắt đầu hoạt động từ
+            năm 1996 và trở thành đối tác chính thức của SamSung từ năm 2000.
+            Với gần 10 năm kinh nghiệm và uy tín trong lĩnh vực máy ảnh, chúng
+            tôi tự hào là địa chỉ tin cậy của khách hàng khi muốn mua sắm các
+            sản phẩm chất lượng và đa dạng của SamSung. <br />Chúng tôi luôn nỗ
+            lực để mang đến cho khách hàng sự hài lòng và thỏa mãn với các dịch
+            vụ của mình, bao gồm: <br />- Tư vấn nhiệt tình, chu đáo và chuyên
+            nghiệp về các sản phẩm, giúp khách hàng lựa chọn được sản phẩm phù
+            hợp nhất với nhu cầu và ngân sách của mình. <br />
+            - Cung cấp các sản phẩm chính hãng, có chất lượng đảm bảo và bảo
+            hành chính hãng của SamSung. <br />
+            - Cập nhật liên tục các sản phẩm mới nhất, nổi bật nhất và bán chạy
+            nhất của SamSung.<br />
+            - Áp dụng các chương trình khuyến mãi hấp dẫn như trả góp 0%, giá
+            sóc online, giảm giá lớn và giá rẻ.<br />
+            - Giao hàng nhanh chóng, an toàn và miễn phí trong nội thành Hà Nội.
+            <br />
+            Trang giới thiệu của chúng tôi là nơi chúng tôi chia sẻ với khách
+            hàng về quá trình hình thành và phát triển của công ty, cũng như
+            những giá trị cốt lõi và tầm nhìn của chúng tôi. Chúng tôi mong muốn
+            xây dựng một thương hiệu uy tín và lâu dài trong lĩnh vực máy ảnh,
+            cũng như góp phần vào sự phát triển của ngành công nghiệp máy ảnh
+            Việt Nam. Chúng tôi rất biết ơn sự tin tưởng và ủng hộ của khách
+            hàng trong suốt thời gian qua và chúng tôi luôn tâm niệm rằng cần
+            phải cố gắng hơn nữa để mang đến cho khách hàng những sản phẩm và
+            dịch vụ tốt nhất. Chúng tôi rất mong nhận được sự đóng góp ý kiến
+            của khách hàng để chúng tôi ngày một hoàn thiện hơn. Chúng tôi xin
+            chân thành cảm ơn tất cả các khách hàng đã, đang và sẽ ủng hộ chúng
+            tôi.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      addContainTaiKhoan();
+    </script>
+
+    <div class="footer">
+      <script>
+        addFooter();
+      </script>
+    </div>
+    <i class="fa fa-arrow-up" id="goto-top-page" onclick="gotoTop()"></i>
+  </body>
+</html>
