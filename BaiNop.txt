@@ -1,0 +1,8 @@
+Nhóm 32:
+Bài tập lớn môn Hệ thống công nghệ web
+Đề tài: Website giới thiệu, bán máy ảnh trực tuyến
+Thực hiện: Lý Ngọc Vũ - Mai Phương Quyên
+Do file quá lớn nên em gửi link drive ạ.
+Link google drive: https://drive.google.com/file/d/1AbmssHdxQSByxpqJxV4gAAGNExyjXZg6/view?usp=sharing
+Link github:https://github.com/zhugez/WebHCN
+Link web: https://cameraseller.netlify.app/
